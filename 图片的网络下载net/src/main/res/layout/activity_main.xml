@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+     tools:context="com.mi.net.MainActivity">
+
+ <ImageView
+     android:id="@+id/iv1"
+     android:layout_width="match_parent"
+     android:layout_height="100dp"
+     android:src="@mipmap/ic_launcher"
+     android:scaleType="fitXY"/>
+    <ProgressBar
+        android:id="@+id/pd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="30"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"/>
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"/>
+    <ProgressBar
+        android:id="@+id/pd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="30"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"/>
+    <Button
+        android:id="@+id/but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="开始下载"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
