@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AutoCompleTextView带自动提示的文本输入框</string>
+    <string-array name="autotext">
+        <item>王者荣耀</item>
+        <item>刘备</item>
+        <item>孙尚香</item>
+        <item>小乔</item>
+        <item>兰陵王</item>
+        <item>荆轲</item>
+        <item>韩信</item>
+        <item>鲁班</item>
+        <item>A</item>
+        <item>Abc</item>
+        <item>AAA</item>
+
+    </string-array>
+</resources>
